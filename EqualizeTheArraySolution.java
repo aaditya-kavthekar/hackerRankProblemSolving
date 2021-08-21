@@ -21,7 +21,7 @@ class Result {
 
     public static int equalizeArray(List<Integer> arr) {
     // Write your code here
-        private final int UPPER_LIMIT = 100;
+        final int UPPER_LIMIT = 100;
         int[] intArray = new int[100];
         int maxCount = 0, lengthOfList = arr.size();
         for(int element : arr) {
